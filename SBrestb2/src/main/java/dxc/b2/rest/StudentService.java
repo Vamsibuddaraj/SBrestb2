@@ -36,4 +36,13 @@ public class StudentService {
 		
 		return student;
 	}
+	public void addStudent(Student student) {
+		students.add(student);
+		System.out.println("added a student "+ student.getName());
+
+	}
+
+	
+	
+	
 }

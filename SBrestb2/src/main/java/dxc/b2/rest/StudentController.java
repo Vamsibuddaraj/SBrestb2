@@ -16,6 +16,14 @@ public class StudentController {
 	@Autowired
 	StudentService studentService;
 	
+	@RequestMapping(method = RequestMethod.POST, value ="students")
+	public void addStudent(@RequestBody Student student) {
+		System.out.println("controllers add student");
+		studentService.addStudent(student);
+	}
+
+
+	
 	
 	
 	
