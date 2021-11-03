@@ -1,4 +1,4 @@
-package dxc.b2.rest;
+ package dxc.b2.rest;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,12 +36,4 @@ public class StudentService {
 		
 		return student;
 	}
-
-
-	public void addStudent(Student student) {
-		students.add(student);
-		System.out.println("added a student "+ student.getName());
-
-	}
-
 }
